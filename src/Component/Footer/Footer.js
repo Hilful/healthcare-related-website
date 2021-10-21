@@ -55,7 +55,7 @@ const Footer = () => {
                             <p className="card-text">We sincerely believe that visiting a dentist shouldn't be a frightening or stressful experience! We provide an equally comfortable. </p>
                             <div id="mc_embed_signup_scroll3">
 							<input type="email" value="" name="EMAIL" className="email newsletter__input" id="mce-EMAIL3" placeholder="Your E-mail Address"/>
-							<button type="submit" name="submit" id="mc-embedded-subscribe3" className="button newsletter__button">sub</button>
+							<button type="submit" name="submit" id="mc-embedded-subscribe3" className="button newsletter__button">Add</button>
 						</div>
                             
                         </div>

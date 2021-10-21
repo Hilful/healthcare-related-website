@@ -20,8 +20,8 @@ const Home = () => {
 			{/* banner section  */}
             <div className="card card-home">
                 <div className="card-body">
-                    <h1>Dr.Mark Hoffman</h1>
-                    <p>Dr.Mark Hoffman's dental clinic welcomes you!</p>
+                    <h1>Dr.Golam Kibria</h1>
+                    <p>Welcome to Dr.Golam Kibria's dental care!</p>
                     <button className="booking-button">Book Appointment</button>
                     <button className="Special-Offers-button">Get Special Offers</button>
                 </div>
@@ -39,21 +39,21 @@ const Home = () => {
 				<img src={work} alt="" />
 				
 				<div className="work-detils">
-					<h1>DR.Mark Spencer</h1>
-					<p>We’re glad you hand your dental health concerns to our skilled hands. We'll make sure to deliver the best possible healthcare to all our patients! Of course, we always complement our main services with a customer service oriented approach.</p>
+					<h1>DR.Mahmudullah Riad</h1>
+					<p>We’re glad you hand over your health concerns to our skilled hands. We'll make sure to deliver the best possible healthcare to all our patients! Of course, we always complement our main services with a customer service oriented approach.</p>
 					<br />
 					<h4>BOOK AN APPOINTMENT</h4>
-					<button className="btn btn-info">MAKE AN APPOINTMENT</button>
+					<button className="btn btn-warning">MAKE AN APPOINTMENT</button>
 				</div>
 			</div>
-			{/* shedule section  */}
+			{/* schedule section  */}
             <div className="appointmentSection" id="appointment">
 				<div className="container container-full">
 					<div className="row gutter-0">
 						<div className="col-sm-4 col-md-4">
 							<div className="appointment__box bg--light">
 								<h3 className="appointment__title appointment__title--pb-20"><span>WORKING</span> HOURS</h3>
-								<p className="appointment__subtitle appointment__subtitle--pb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<p className="appointment__subtitle appointment__subtitle--pb-20">Appointment time might vary according to emergency cases!!</p>
 								<ul className="programList">
 									<li className="programList__item">
 										Monday - Thursday: <span>10:00 am - 2:00 pm</span>

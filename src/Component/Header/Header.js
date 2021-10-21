@@ -14,14 +14,14 @@ const Header = () => {
                     <img className="img" src={logo} alt="" />
                     <nav className="header">
                         <NavLink to="/home" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>Home</NavLink>
-                        <NavLink to="/about us" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>about us</NavLink>
-                        <NavLink to="/Shedule" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>Shedule</NavLink>
+                        <NavLink to="/about us" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>About Us</NavLink>
+                        <NavLink to="/Shedule" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>Schedule</NavLink>
                         <NavLink to="/Contact" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>Contact</NavLink>
                         { users.email &&
                             <span style={{color:'skyblue'}}>Hello {users.displayName}</span>}
                         { users.email ?
                             <button onClick={logOut}>logout</button>:
-                            <NavLink to="/login" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>login</NavLink>}
+                            <NavLink to="/login" style={{ textDecoration: 'none',margin:'5px',color: 'black' }}>Login</NavLink>}
                     </nav>
                 </div>
             </nav>

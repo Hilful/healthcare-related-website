@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 span{
-    color: rgb(33, 174, 230);
+    color: #ee9852;
 }
 .card-home{
     background-image: url('../../Image/bg-img.jpg');
@@ -60,5 +60,5 @@ span{
 }
 .work-detils{
     
-    background-color: skyblue;
+    background-color: #ee9852;
 }

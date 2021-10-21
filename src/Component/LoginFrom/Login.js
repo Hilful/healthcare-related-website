@@ -57,18 +57,19 @@ const Login = () => {
                 {/* login form section  */}
                 <h2>login</h2>
                 <form onSubmit={handleLogin}>
-                    <input type="text" name="" onBlur ={handleEmailChange} placeholder="your email" required/>
+                    <input type="text" name="" onBlur ={handleEmailChange} placeholder="Your Email" required/>
                     <br />
                     <br />
-                    <input type="password" onBlur ={handlePasswordChange} placeholder="your password" required/>
+                    <input type="password" onBlur ={handlePasswordChange} placeholder="Your Password" required/>
                     <br />
                     <div className="text-danger">{error}</div>
                     <input type="submit" className="btn btn-warning" value="submit" />
                 </form>
-                <p>New to medlife? <Link to="/register">Create Account</Link></p>
-                <div>------------or----------</div>
+                <p>New to United Hospital? <Link to="/register">Create Account</Link></p>
+                <div>----------------------</div>
+
                 {/* google login  */}
-                <button onClick ={handleGoogleLogin} className="btn btn-warning">google login</button>
+                <button onClick ={handleGoogleLogin} className="btn btn-warning">Google Login</button>
             </div>
             
         </div>
