@@ -1,0 +1,18 @@
+.hg-contactform{
+    
+    background-color: #eb9045;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    
+}
+.card-contact{
+    background-image: url('../../Image/subheader4.jpg');
+     background-repeat: no-repeat;
+     padding: 100px;
+     text-align: center;
+     color: skyblue;
+}
+.input{
+    margin-left: 300px;
+}

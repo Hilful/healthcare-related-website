@@ -1,0 +1,64 @@
+
+.appointmentSection{
+    background-color: rgb(238, 232, 232);
+}
+.programList__item {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.appointment__box{
+    margin-top: 80px;
+}
+.appointment__bgImg{
+    height: 500px;
+    width: 1000px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+span{
+    color: rgb(33, 174, 230);
+}
+.card-home{
+    background-image: url('../../Image/bg-img.jpg');
+     background-repeat: no-repeat;
+     padding: 100px;
+     text-align: left;
+}
+.booking-button{
+    background-color: slateblue;
+    color: white;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    margin: 0 2px;
+    text-decoration: none;
+    border: none;
+}
+.Special-Offers-button{
+    background-color: skyblue;
+    color: white;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    margin: 0 2px;
+    text-decoration: none;
+    border: none; 
+}
+.home-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    padding: 10px;
+}
+.work{
+    display: flex;
+}
+.work-detils{
+    
+    background-color: skyblue;
+}

@@ -1,0 +1,36 @@
+.footer-body{
+    background: #ee9852;
+}
+.card-footer{
+    background: #ee9852;
+}
+.newsletter__input{
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    height: 40px;
+    width: calc(100% - 50px);
+    margin-right: 0px;
+    background: #c8d3df;
+    padding-left: 20px;
+    transition: padding-left .15s ease-out;
+    font-family: sans-serif;
+    border: none;
+    color: #cad5e0;
+    display: inline-block;
+}
+.newsletter__button{
+    height: 40px;
+    background-color: #5bb7ed;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    width: 40px;
+    border-radius: 3px;
+    float: right;
+    border: 0;
+    vertical-align: middle;
+    outline: none;
+    margin: 0;
+    top: 0;
+}
