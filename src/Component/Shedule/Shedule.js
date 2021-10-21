@@ -12,7 +12,7 @@ const Shedule = () => {
                             <div className="card">
                             <img src={img1}className="card-img-top" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">laboratory</h5>
+                                <h5 className="card-title">Fitness</h5>
                                 
                             </div>
                             </div>
@@ -39,7 +39,7 @@ const Shedule = () => {
                             <div className="card">
                             <img src={img4} className="card-img-top" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Dentitry</h5>
+                                <h5 className="card-title">Oral Hygine</h5>
                                 
                             </div>
                             </div>
